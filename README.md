@@ -1,4 +1,4 @@
-[![Travis-CI Build Status](https://travis-ci.org/jtrecenti/travisTest.svg?branch=master)](https://travis-ci.org/jtrecenti/travisTest)
+[![Travis-CI Build Status](https://travis-ci.org/azeloc/travisTest.svg?branch=master)](https://travis-ci.org/azeloc/travisTest)
 
 # travisTest
 
