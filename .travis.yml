@@ -1,0 +1,13 @@
+language: r
+
+env:
+  global:
+    - secure: "iNyllEs6NNWOQusQNUzkpST1jQlDQBxNPTKLxbDsRMVbWfLsoonaOZMBR3C7dqpCgvmGZVPByfqixQ/8c63/2YPlbmmfZCqZnvQDxiY8lX0GAZLflVm6/7H8Yc0tjONlIzMSN1417AIqEkFIUuSdi34fgOuTi3HkFwbPVKFUyNhcy1k1K93iHzi2PiNS5LCbu/P0hSaaBA51+gRktHiFUKxqy7WSWj3JuzF0j+43kNjjlHcBz0guE5B0yFWbzJhcdFoUfs4dmDE8Wet4YJIymNKuLyVfIIRlh3SJ+vwnyd1IlBQxpsrGuxKxCxy6y4gnKXxVkOOlRLgEapFGXJy/3IrRTF7AR4NWyYvYMPVvno6QAf7IAOSTeHeLPD4fBoFcVlP6NqeWm14mPPe/I2pfvVKqid4W4ESnRLa/7GinP22HehYNmmkqfKGqzkIxRuiMwilrFrvJylQghBVMyPr26foWjCgrnJdjIshyiE1brVy0AJ9qwqZFAJ2OUHH+V9JBHVUfkpVq7QGH9eu3uq68L24A9uWx0Sd3CIwhaWdIEVk2uyweF8i+PkSNB6OAkw/gIbls4Xe5/pPL5iLj7Bie8Lpuf48Nk1oheKyxeUKJDunFj3DpVqhYHm4rvbpT9LP1Q050P/zSMtMztpw4UhkiRzb+aDImDKlEioTZOFQzmec="
+
+before_script:
+  - chmod +x ./_build.sh
+  - chmod +x ./_deploy.sh
+
+script:
+  - ./_build.sh
+  - ./_deploy.sh
